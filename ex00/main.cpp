@@ -3,9 +3,10 @@
 
 int	main(void)
 {
-	Fixed a;
+	Fixed	a;
+	Fixed	c;
+
 	Fixed b(a);
-	Fixed c;
 	c = b;
 	std::cout << a.getRawBits() << std::endl;
 	std::cout << b.getRawBits() << std::endl;
